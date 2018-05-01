@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kustwXx0Tug/0l2ijpuOay4qj4JFeI2x7qJN4t0m/lKfzVuJW8nQMhj7pUDqcMIhsVrXEA6Vif07+gI3QxfaqA96B/0bpuVk5r03fJNUWKIUola5FAtnCsIO5qkCLdFsyPFiJF2X9m7i3Tl7brv/BbQwZ1kJpG7NEKa6plQb+M0XGxBKkLQcuDWo0NxRN+ZrdRThGD7NcNqazUfmAOexnHYC8uPh0t4aeJMOPBg/y+pN1asjkFBL5hypTchQU0PLAbpGp5ROihgFIFLdYf6v45lLiC28sLIAp08j0r3UYdIanonCche3ourUSFeQZ4ibnUrBasQV+Ond5xENS+dIYdDiZNqzU8u1Og+sjmy51kPNkJ2L+EO66cd72Gdhk6CGLNw/5Xh1MUvpEI7+vR4R+VQOgXgyjfZnrBLVkgqXcWTVTxRvkPw5a/xCnlS8ZgaHXH2i0dMD/8ZFqtp3eXX42Adeu1akzFU/xQY7Tuhud4QUOW2dPsvaIbtJGZBy2QAp+OPxO4tsLa5tvPB4Wy6BKTO+I8LPrutK6Nycw4nnxaAryjuMs5HTARHakskKW/+Gk8P+ynggHJo+S3dp7TSl55H5ai29hm2l+G8hree2JX/LqiJjLSd+3+nLwemthxwLteDVRJF4gLET6N2WU/p4J0gXsJP6+yzu2r+GGWO+DiQ=
+  app: stormy-ocean-99287
+  on:
+    repo: mukthaK/node-shopping-list-integration-tests
